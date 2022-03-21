@@ -21,8 +21,8 @@ class Room extends Component {
             });
             
             console.log("Joining " + roomName);
-            console.log("https://" + config.DAILY_SUBDOMAIN + ".daily.co/" + roomName);
-            window.callFrame.join({ url: "https://" + config.DAILY_SUBDOMAIN + ".daily.co/" + roomName })
+            console.log("https://" + config.DAILY_SUBDOMAIN + ".techlearn.store/" + roomName);
+            window.callFrame.join({ url: "https://" + config.DAILY_SUBDOMAIN + ".techlearn.store/" + roomName })
         }
 
         let timerElt = document.getElementById("date");
